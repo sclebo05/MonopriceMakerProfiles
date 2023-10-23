@@ -9,9 +9,7 @@ G28 Z0 ;move Z to min endstops
 G1 Z15.0 F200 ;move the platform down 15mm
 M117 Heating ...
 ; Prusa has already heated the bed
-M140 S[first_layer_temperature] ;Start heating bed
 M105 ;measure and display temperature of bed and nozzle
-M190 S[first_layer_temperature] ;Wait for bed to reach temp before proceeding
 M104 S[first_layer_temperature] ;Start heating extruder
 M105 ;measure and display temperature of bed and nozzle
 M109 S[first_layer_temperature] ;Wait for extruder to reach temp before proceeding
@@ -26,6 +24,7 @@ G92 E0 ;zero the extruded length again
 G1 F200 
 ;Put printing message on LCD screen
 M117 Printing...
+
 
 
 
