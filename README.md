@@ -2,6 +2,8 @@
 
 After purchasing an old Monoprice Maker from someone, I am attempting to migrate settings from legacy Cura profiles to the latest Cura (5.4) and Prusa (2.6.1) slicers.  
 
+![Mono Maker Select v2](mmselectv2.jpg)
+
 ## Gcodes
 As with any printer, I recommend using the custom Gcodes for your printer.  These can be beneficial in performing a test stripe before each print, which can help with initial layer issues by clearing the nozzle.
 
